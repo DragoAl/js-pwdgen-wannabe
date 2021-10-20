@@ -21,6 +21,18 @@ let userFavColor = prompt ("Scrivi il tuo colore preferito");
 
 // console.log (userFavColor) DEBUG;
 
+// VARIABILE PER PASSWORD
+let userPassword = userName + userSurname + userFavColor;
+
+// console.log (userPassword) DEBUG;
+
+// VARIABILE NUMERO
+const yearNumber = 21;
+
 // PRINT ON THE SCREEN 'La password assegnata è: "nomecognomecolorepreferito21"'
+
+// document.getElementById("password-box").innerHTML = `La Password assegnata è: 
+// ${userName}${userSurname}${userFavColor}21`
+
 document.getElementById("password-box").innerHTML = `La Password assegnata è: 
-${userName}${userSurname}${userFavColor}21`
+${userPassword}${yearNumber}`
